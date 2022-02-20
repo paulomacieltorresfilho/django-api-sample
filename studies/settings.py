@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'studies.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'qujjyhmt',
-        'USER':  'qujjyhmt',
-        'PASSWORD': 'pZPOQgBMPgTVEFTn1taJAX1-Ik2k7hxG',
-        'HOST': 'motty.db.elephantsql.com',
+        'NAME': DB_NAME,
+        'USER':  DB_USER,
+        'PASSWORD': DB_PASSWORD,
+        'HOST': DB_HOST,
         'PORT': ''
     }
 }
